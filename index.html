@@ -91,57 +91,39 @@ a {
 
 }
 .background-image {
-  background-image: url("violin-piano.png");
-  -webkit-background-size: cover;
-  background-size: cover;
-  display: block;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  height: 100%;
-  width: 100%;
-  position: absolute;
+    background-image: url("violin-piano.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 .profile-card h2 {
     font-size: 1.25em;
     line-height: 1.2em;
-    margin: 2em 0 2em 0;
-
-}
-.profile-card .btn {
-    border: 1px solid #ddd;
-    display: block;
-    margin: 0 auto 2em auto;
-    padding: .5em 0;
-    text-transform: uppercase;
-    width: 90%;
+    margin: 2em 0 0 0;
 
 }
 .profile-card .social {
-    border-top: 1px solid #eee;
     font-size: 1.5em;
-    text-align: center;
-
-}
-.profile-card .social li {
-    float: left;
-    width: 33.33333%;
+    display: inline-block;
 
 }
 .profile-card .social a {
-    display: block;
-    padding: 1em 0;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    padding-top: 1em;
 
 }
-.profile-card .social .fa-twitter:hover {
+.profile-card .social .fa-stack-overflow:hover {
     color: #55acee;
 
 }
-.profile-card .social .fa-dribbble:hover {
+.profile-card .social .fa-github:hover {
     color: #ea4c89;
-
-}
-.profile-card .social .fa-linkedin:hover {
-    color: #0976b4;
 
 }
 </style>
@@ -156,9 +138,11 @@ a {
     <h2>Violin and Piano Player</h2>
     <h2>Web Developer</h2>
     <h2>Hobbyist</h2>
+    <div class="social">
+        <a href="https://github.com/linuscl/" title="Visit me on Github" class="fa fa-github"></a>
+        <a href="https://stackoverflow.com/users/3297638/linuscl" title="Visit me on Stackoverflow" class="fa fa-stack-overflow"></a>
+    </div>
 
-    <a href="https://github.com/linuscl/" title="Visit me on Github" class="fa fa-github"></a>
-    <a href="https://stackoverflow.com/users/3297638/linuscl" title="Visit me on Stackoverflow" class="fa fa-stack-overflow"></a>
 </div> <!-- end profile-card -->
 
 </body>
