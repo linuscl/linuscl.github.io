@@ -1,0 +1,28 @@
+.profile-card {
+    height: 95%;
+}
+.profile-card h1 {
+    color: #000;
+    font-size: 28.8px;
+    line-height: 16px;
+}
+.profile-card h2 {
+    font-size: 16px;
+    line-height: 16px;
+    margin: 24px 0 0 0;
+
+}
+.profile-card .social {
+    font-size: 19.2px;
+    display: inline-block;
+}
+.profile-card .social a {
+    padding-left: 1.6px;
+    padding-right: 1.6px;
+    padding-top: 8px;
+}
+.profile-card img {
+    height: 130px;
+    width: 130px;
+    margin: 32px 0;
+}
