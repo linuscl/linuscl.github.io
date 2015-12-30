@@ -9,8 +9,6 @@
 <meta name="keywords" content="Linus,Claußnitzer,Linux,Programming,Violin,Alzenau">
 <meta name="author" content="Linus Claußnitzer">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400">
-<link rel="stylesheet" href="style-px.css">
 <meta name="google-site-verification" content="ut2GuCaS53H_b8ytrhx-lboNjri5zQl7f-sGVHP1fbg" />
 <script type="application/ld+json">
 {
@@ -45,5 +43,38 @@
 $("h1").fitText(1.5);
 $("h2").fitText(2.5);
 </script>
+<script>
+var cb = function() {
+    var l = document.createElement('link'); l.rel = 'stylesheet';
+    l.href = 'style-px.css';
+    var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+
+};
+var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+webkitRequestAnimationFrame || msRequestAnimationFrame;
+if (raf) raf(cb);
+else window.addEventListener('load', cb);
+var cb = function() {
+    var l = document.createElement('link'); l.rel = 'stylesheet';
+    l.href = 'https://fonts.googleapis.com/css?family=Raleway:400';
+    var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+
+};
+var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+webkitRequestAnimationFrame || msRequestAnimationFrame;
+if (raf) raf(cb);
+else window.addEventListener('load', cb);
+var cb = function() {
+    var l = document.createElement('link'); l.rel = 'stylesheet';
+    l.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css';
+    var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+
+};
+var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+webkitRequestAnimationFrame || msRequestAnimationFrame;
+if (raf) raf(cb);
+else window.addEventListener('load', cb);
+</script>
+
 </body>
 </html>
