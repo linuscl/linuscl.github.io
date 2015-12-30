@@ -1,0 +1,282 @@
+
+
+@media (min-width: 600px) {
+    /*---------- GENERAL ----------*/
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+
+    }
+
+    html {
+        height: 100%;
+
+    }
+
+    body {
+        font: 400 16px/24px 'Raleway', sans-serif;
+        margin: 0;
+
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+
+    /*---------- UTILITIES ----------*/
+    .clear, .profile-card .social {
+        *zoom: 1;
+
+    }
+    .clear:before, .profile-card .social:before, .clear:after, .profile-card .social:after {
+        content: ' ';
+        display: table;
+
+    }
+    .clear:after, .profile-card .social:after {
+        clear: both;
+
+    }
+
+    .list-unstyled, .profile-card .social {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    /*---------- PROFILE_CARD ----------*/
+    .profile-card {
+        background-color: #fff;
+        bottom: 0;
+        -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+        color: #555;
+        height: 624px;
+        left: 0;
+        margin: auto;
+        max-width: 512px;
+        position: fixed;
+        right: 0;
+        text-align: center;
+        top: 0;
+
+    }
+    .profile-card a {
+        color: #555;
+
+    }
+    .profile-card img {
+        border: 3px solid #ddd;
+        border-radius: 50%;
+        background-clip: padding-box;
+        margin: 80px 0;
+        width: 160px;
+        height: 160px;
+
+    }
+    .profile-card h1 {
+        color: #000;
+        font-size: 32px;
+        line-height: 19.2px;
+        margin: 0;
+        text-transform: uppercase;
+
+    }
+    .background-image {
+        background-image: url("violin-piano.png");
+        -webkit-background-size: cover;
+        background-size: cover;
+        display: block;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+    .profile-card h2 {
+        font-size: 20px;
+        line-height: 19.2px;
+        margin: 32px 0 0 0;
+
+    }
+    .profile-card .social {
+        font-size: 24px;
+        display: inline-block;
+
+    }
+    .profile-card .social a {
+        padding-left: 1.6px;
+        padding-right: 1.6px;
+        padding-top: 16px;
+
+    }
+    .profile-card .social .fa-stack-overflow:hover {
+        color: #F48024;
+
+    }
+    .profile-card .social .fa-github:hover {
+        color: blue;
+
+    }
+}
+@media (max-width: 600px) {
+    /*---------- GENERAL ----------*/
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+
+    }
+
+    html {
+        height: 100%;
+
+    }
+
+    body {
+        font: 400 16px/24px 'Raleway', sans-serif;
+        margin: 0;
+
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+
+    /*---------- UTILITIES ----------*/
+    .clear, .profile-card .social {
+        *zoom: 1;
+
+    }
+    .clear:before, .profile-card .social:before, .clear:after, .profile-card .social:after {
+        content: ' ';
+        display: table;
+
+    }
+    .clear:after, .profile-card .social:after {
+        clear: both;
+
+    }
+
+    .list-unstyled, .profile-card .social {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    /*---------- PROFILE_CARD ----------*/
+    .profile-card {
+        background-color: #fff;
+        bottom: 0;
+        -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+        color: #555;
+        height: 90%;
+        left: 0;
+        margin: auto;
+        max-width: 95%;
+        position: fixed;
+        right: 0;
+        text-align: center;
+        top: 0;
+
+    }
+    .profile-card a {
+        color: #555;
+
+    }
+    .profile-card img {
+        border: 3px solid #ddd;
+        border-radius: 50%;
+        background-clip: padding-box;
+        margin: 10% 0;
+        width: 160px;
+        height: 160px;
+
+    }
+    .profile-card h1 {
+        color: #000;
+        font-size: 32px;
+        line-height: 19.2px;
+        margin: 0;
+        text-transform: uppercase;
+
+    }
+    .background-image {
+        background-image: url("violin-piano.png");
+        -webkit-background-size: cover;
+        background-size: cover;
+        display: block;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+    .profile-card h2 {
+        font-size: 20px;
+        line-height: 19.2px;
+        margin: 32px 0 0 0;
+
+    }
+    .profile-card .social {
+        font-size: 24px;
+        display: inline-block;
+
+    }
+    .profile-card .social a {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 50px;
+    }
+    .profile-card .social .fa-stack-overflow:hover {
+        color: #F48024;
+
+    }
+    .profile-card .social .fa-github:hover {
+        color: blue;
+
+    }
+}
+@media (max-height: 630px) {
+    .profile-card {
+        height: 95%;
+    }
+    .profile-card h1 {
+        color: #000;
+        font-size: 28.8px;
+        line-height: 16px;
+    }
+    .profile-card h2 {
+        font-size: 16px;
+        line-height: 16px;
+        margin: 24px 0 0 0;
+
+    }
+    .profile-card .social {
+        font-size: 19.2px;
+        display: inline-block;
+    }
+    .profile-card .social a {
+        padding-left: 1.6px;
+        padding-right: 1.6px;
+        padding-top: 8px;
+    }
+    .profile-card img {
+        height: 130px;
+        width: 130px;
+        margin: 32px 0;
+    }
+}
+@media (max-height: 400px) {
+    .profile-card img {
+        height: 100px;
+        width:100px;
+    }
+}
+
