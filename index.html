@@ -8,7 +8,6 @@
 <meta name="description" content="Personal webpage of Linus Claußnitzer">
 <meta name="keywords" content="Linus,Claußnitzer,Linux,Programming,Violin,Alzenau">
 <meta name="author" content="Linus Claußnitzer">
-<link rel="stylesheet" href="style-px.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
 <meta name="google-site-verification" content="ut2GuCaS53H_b8ytrhx-lboNjri5zQl7f-sGVHP1fbg" />
 <script type="application/ld+json">
@@ -22,6 +21,9 @@
 </script>
 <script async src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script async src="jquery.fittext.js"></script>
+<!--[if IE]>
+    <link rel="stylesheet" href="style-px.css"> <!-- blocking, but what else can ya do? -->
+  <![endif]-->
 </head>
 <body>
 <div class="background-image"></div>
@@ -39,7 +41,9 @@
     </div>
 
 </div> <!-- end profile-card -->
-
+  <!--[if !IE]> -->
+        <link rel="stylesheet" href="style-px.css" lazyload>
+  <!-- <![endif]-->
 <script type="text/javascript">
 $("h1").fitText(1.5);
 $("h2").fitText(2.5);
